@@ -55,3 +55,33 @@ class ProjectManagers extends Instructor {
     }
 }
 
+const bob = new Person({
+    name: "bob",
+    age: "21",
+    location: "kansas"
+});
+
+const bill = new Person({
+    name: "bill",
+    age: "44",
+    location: "Texas"
+});
+
+const jack = new Instructor({
+    name: "jack",
+    age: "31",
+    location: "Maine",
+    specialty: "crying",
+    favLanguage: "English",
+    catchPhrase: "What it be what it do"
+});
+
+const juan = new Instructor({
+    name: "juan",
+    age: "37",
+    location: "mexico",
+    specialty: "dishes",
+    favLanguage: "Spanish",
+    catchPhrase: "TACO TUESDAY"
+});
+
